@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Face Outline -->
+    <path
+        android:strokeWidth="6"
+        android:strokeColor="#3E3E3E"
+        android:fillColor="#00000000"
+        android:pathData="M60,80 C60,60 80,40 85,55 C90,65 110,65 115,55 C120,40 140,60 140,80 C140,120 100,150 100,150 C100,150 60,120 60,80 Z" />
+
+    <!-- Eyes (closed) -->
+    <path
+        android:strokeWidth="4"
+        android:strokeColor="#3E3E3E"
+        android:fillColor="#00000000"
+        android:pathData="M80,95 Q90,105 100,95 M120,95 Q130,105 140,95" />
+
+    <!-- Nose/Mouth -->
+    <path
+        android:fillColor="#3E3E3E"
+        android:pathData="M95,115 Q100,120 105,115 L105,120 Q100,125 95,120 Z" />
+
+    <!-- Sparkle on ear -->
+    <path
+        android:fillColor="#D97746"
+        android:pathData="M135,60 L138,55 L141,60 L138,65 Z" />
+
+</vector>

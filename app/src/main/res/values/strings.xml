@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">فهيم</string>
+    <string name="app_description">افهم حيوانك بذكاء</string>
+    <string name="version_text">الإصدار 1.0</string>
+
+    <string name="terms_title">قبل أن نبدأ</string>
+    <string name="terms_subtitle">يُرجى قراءة الشروط والتعليمات التالية بعناية للمتابعة في استخدام التطبيق</string>
+    <string name="disclaimer_label">إخلاء مسؤولية وتنبيه طبي</string>
+    <string name="term_1_title">1</string>
+    <string name="term_1_text">هذا التطبيق أداة مساعدة تعتمد على الذكاء الاصطناعي لتحليل سلوك حيوانك، ولا يتحمل أي مسؤولية قانونية أو طبية عن أي قرار يُتخذ بناءً على المعلومات أو التنبيهات المعروضة فيه.</string>
+    <string name="term_2_title">2</string>
+    <string name="term_2_text">لا يُعتبر أي تحليل أو تنبيه يظهر في التطبيق تشخيصاً طبياً بأي شكل من الأشكال. يُرجى دائماً مراجعة الطبيب البيطري المختص عند ملاحظة أي تغيير في سلوك أو صحة حيوانك.</string>
+    <string name="terms_footer">باستخدامك لتطبيق فهيم، فإنك تقر وتدرك تماماً دور الذكاء الاصطناعي كوسيلة استرشادية فقط.</string>
+    <string name="terms_agree">قرأت ووافقت على ما ورد أعلاه</string>
+    <string name="btn_agree_continue">أوافق وأتابع</string>
+    <string name="step_info">خطوة 1 من 2</string>
+    <string name="features_subtitle">نقدم لك أفضل الأدوات لفهم احتياجات حيوانك الأليف وتحسين جودة حياته</string>
+
+    <string name="feature_1_title">تحليل السلوك</string>
+    <string name="feature_1_desc">فهم ما يحاول حيوانك قوله من خلال لغة الجسد</string>
+    <string name="features_badge">تطبيق فهيم الذكي</string>
+    <string name="features_title">تعرف على فهيم</string>
+
+
+    <string name="feature_one_title">افهم صوت حيوانك</string>
+    <string name="feature_one_desc">سجّل صوت قطتك أو كلبك واحصل على تفسير فوري لمزاجه</string>
+
+    <string name="feature_two_title">تواصل بطريقته</string>
+    <string name="feature_two_desc">اكتب كلامك وخلّي فهيم يترجمه لطريقة تواصل يفهمها حيوانك</string>
+
+    <string name="feature_three_title">تنبيه صحي مبكر</string>
+    <string name="feature_three_desc">ننبهك إذا لاحظنا تغيّر بسلوك حيوانك، وننصحك تراجع الطبيب البيطري</string>
+
+    <string name="feature_icon">أيقونة الميزة</string>
+    <string name="skip">تخطي</string>
+    <string name="next">التالي</string>
+
+    <string name="login_title">أهلاً فيك مجدداً</string>
+    <string name="login_subtitle">سجّل دخولك لمتابعة مزاج وصحة حيوانك الأليف بكل حب وذكاء</string>
+    <string name="email_label">البريد الإلكتروني</string>
+    <string name="email_hint">name@example.com</string>
+    <string name="password_label">كلمة المرور</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="or_divider">أو</string>
+    <string name="facebook_button">فيسبوك</string>
+    <string name="google_button">جوجل</string>
+    <string name="no_account_text">ليس لديك حساب؟</string>
+    <string name="create_account_link">إنشاء حساب جديد</string>
+    <string name="app_logo_description" />
+
+    <string name="create_account_title">إنشاء حساب جديد</string>
+    <string name="create_account_subtitle">انضم إلى فهيم وابدأ رحلة فهم حيوانك الأليف بحب واهتمام</string>
+    <string name="first_name_hint">الاسم الأول</string>
+    <string name="last_name_hint">اسم العائلة</string>
+    <string name="animal_type_label">نوع الحيوان</string>
+    <string name="animal_gender_label">جنس الحيوان</string>
+    <string name="terms_agreement">أوافق على الشروط والأحكام وسياسة الخصوصية</string>
+    <string name="create_account_button">إنشاء الحساب</string>
+
+    <string name="verification_title">تحقق من بريدك الإلكتروني</string>
+    <string name="verification_subtitle">أرسلنا رمز تأكيد يتكون من 6 أرقام إلى بريدك</string>
+    <string name="verification_icon">أيقونة التحقق</string>
+    <string name="resend_code">إعادة الإرسال</string>
+    <string name="confirm_button">تأكيد</string>
+
+
+    <string name="home_greeting">أهلاً، سارة</string>
+    <string name="settings_icon">الإعدادات</string>
+    <string name="user_avatar">صورة المستخدم</string>
+    <string name="trials_remaining">متبقي لك 3 تجارب اليوم</string>
+    <string name="trial_icon">أيقونة التجارب</string>
+    <string name="record_button">زر التسجيل</string>
+    <string name="tap_to_record">اضغط للتسجيل</string>
+    <string name="ad_required_note">يتطلب مشاهدة إعلان قصير قبل كل تحليل</string>
+    <string name="recent_analyses_title">آخر التحليلات</string>
+    <string name="animal_icon">أيقونة الحيوان</string>
+    <string name="sample_analysis_one_date">اليوم، 10:24 ص</string>
+    <string name="sample_analysis_one_result">بسكوت — مرتاح وسعيد</string>
+    <string name="sample_analysis_two_date">أمس، 4:15 م</string>
+    <string name="sample_analysis_two_result">ريكس — يريد اللعب</string>
+    <string name="nav_upgrade">الترقية</string>
+    <string name="nav_history">السجل الكامل</string>
+    <string name="nav_profile">البروفايل</string>
+    <string name="nav_home">الرئيسية</string>
+
+    <string name="alert_icon">أيقونة التنبيه</string>
+    <string name="health_alert_disclaimer">هذا التنبيه مبني فقط على المعلومات التي أدخلتها في التطبيق، ولا يعتبر تشخيصاً طبياً. يُنصح بمراجعة الطبيب البيطري في أقرب وقت.</string>
+    <string name="health_alert_result_sample">يبدو أن بسكوت يعاني من توتر غير معتاد</string>
+    <string name="health_alert_confidence_sample">نسبة الثقة: 72%</string>
+    <string name="health_alert_explanation_sample">بناءً على تكرار غير معتاد في الصوت خلال آخر 3 أيام</string>
+    <string name="find_clinic_button">أبحث على أقرب عيادة بيطرية</string>
+    <string name="dismiss_alert">تجاهل التنبيه</string>
+
+    <string name="back_button">رجوع</string>
+    <string name="profile_title">الصفحة الشخصية</string>
+    <string name="sample_user_name">سارة المنصور</string>
+    <string name="sample_user_email">sarah.mansoor@example.com</string>
+    <string name="current_plan_free">الخطة الحالية: مجاني</string>
+    <string name="upgrade_link">ترقية</string>
+    <string name="my_pets_title">حيواناتي</string>
+    <string name="add_pet_button">إضافة حيوان</string>
+    <string name="sample_pet_one_name">ريكس</string>
+    <string name="sample_pet_one_type">كلب لابرادور</string>
+    <string name="sample_pet_two_name">بسكوت</string>
+    <string name="sample_pet_two_type">قطة شيرازي</string>
+    <string name="menu_settings">الإعدادات</string>
+    <string name="menu_history">سجل التحليلات الكامل</string>
+    <string name="menu_terms">الشروط والأحكام</string>
+    <string name="menu_privacy">سياسة الخصوصية</string>
+    <string name="menu_contact">تواصل معنا</string>
+    <string name="menu_logout">تسجيل الخروج</string>
+
+    <string name="settings_title">الإعدادات</string>
+    <string name="section_account">الحساب</string>
+    <string name="edit_name_email">تعديل الاسم والبريد الإلكتروني</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="linked_accounts">الحسابات المرتبطة</string>
+    <string name="section_basic_pet_data">بيانات الحيوان الأساسية</string>
+    <string name="basic_pet_note">هذي بيانات حيوانك الأساسي — لإضافة حيوانات أخرى، روح لصفحتك الشخصية</string>
+    <string name="section_preferences">التفضيلات</string>
+    <string name="language_label">اللغة</string>
+    <string name="notifications_label">الإشعارات</string>
+    <string name="dark_mode_label">الوضع الليلي</string>
+    <string name="section_support">الدعم</string>
+    <string name="faq_label">الأسئلة الشائعة</string>
+    <string name="contact_us_label">تواصل معنا</string>
+    <string name="rate_app_label">قيّم التطبيق</string>
+    <string name="delete_account">حذف الحساب نهائياً</string>
+    <string name="app_version">الإصدار 1.0.0</string>
+    <string name="edit_profile_image" />
+
+    <string name="payment_title">اختر خطتك</string>
+    <string name="payment_subtitle">افتح كل مميزات فهيم لحيوانك</string>
+
+    <string name="plan_free_name">مجاني</string>
+    <string name="current_plan_badge">خطتك الحالية</string>
+    <string name="plan_free_feature_one">3 تحليلات يومياً</string>
+    <string name="plan_free_feature_two">قطط وكلاب فقط</string>
+    <string name="plan_free_feature_three">يتطلب مشاهدة إعلان قبل كل تحليل</string>
+
+    <string name="plan_regular_name">اشتراك فهيم</string>
+    <string name="plan_regular_trial_badge">جرّب 7 أيام مجاناً</string>
+    <string name="plan_regular_feature_one">استخدام غير محدود</string>
+    <string name="plan_regular_feature_two">قطط وكلاب</string>
+    <string name="plan_regular_feature_three">إعلانات أخف</string>
+    <string name="plan_regular_feature_four">نصف مميزات العيادة البيطرية</string>
+    <string name="start_trial_button">ابدأ التجربة المجانية</string>
+
+    <string name="plan_premium_name">بريميوم</string>
+    <string name="plan_premium_badge">الأفضل قيمة</string>
+    <string name="plan_premium_price">199$ / سنوياً</string>
+    <string name="plan_premium_feature_one">استخدام غير محدود</string>
+    <string name="plan_premium_feature_two">كل أنواع الحيوانات (يشمل الخيول)</string>
+    <string name="plan_premium_feature_three">بدون إعلانات نهائياً</string>
+    <string name="plan_premium_feature_four">كل مميزات العيادة البيطرية</string>
+    <string name="subscribe_premium_button">اشترك الآن</string>
+
+    <string name="cancel_anytime_note">يمكنك إلغاء الاشتراك في أي وقت من إعدادات جوجل بلاي</string>
+
+
+    <string name="chat_title">اسأل فهيم</string>
+    <string name="premium_badge">بريميوم</string>
+    <string name="chat_disclaimer">هذي محادثة مساعدة بالذكاء الاصطناعي، ولا تُغني عن استشارة طبيب بيطري حقيقي عند الحاجة.</string>
+    <string name="chat_welcome_message">أهلاً! احكيلي شو لاحظت على حيوانك بالتفصيل وبساعدك أفهم الوضع</string>
+    <string name="chat_input_hint">اكتب وصف المشكلة هنا...</string>
+    <string name="send_icon">➤</string>
+
+    <string name="history_title">سجل التنبيهات</string>
+    <string name="history_alert_one_title">توتر غير معتاد عند بسكوت</string>
+    <string name="history_alert_one_date">اليوم، 10:30 ص</string>
+    <string name="status_pending">بانتظار المراجعة</string>
+    <string name="history_alert_two_title">تغيّر في نمط الحركة عند ريكس</string>
+    <string name="history_alert_two_date">أمس، 4:15 م</string>
+    <string name="status_reviewed">تمت المراجعة</string>
+
+    <!-- نصوص الكود (تتبدّل حسب لغة الجهاز) -->
+    <string name="toast_fill_all">لازم تعبي كل الحقول</string>
+    <string name="toast_email_exists">هذا البريد مسجّل مسبقاً</string>
+    <string name="default_pet_name">حيواني</string>
+    <string name="toast_send_code_failed">فشل إرسال الكود: %1$s</string>
+    <string name="toast_login_fill">لازم تعبي البريد وكلمة المرور</string>
+    <string name="toast_login_wrong">البريد أو كلمة المرور غير صحيحة</string>
+    <string name="toast_user_missing">خطأ: المستخدم غير موجود</string>
+    <string name="toast_code_expired">انتهت صلاحية الكود، اطلب كود جديد</string>
+    <string name="toast_code_wrong">الكود غير صحيح</string>
+    <string name="toast_code_resent">تم إرسال كود جديد</string>
+    <string name="toast_resend_failed">فشل الإرسال: %1$s</string>
+    <string name="chat_premium_only">الدردشة مع فهيم متاحة لمشتركي بريميوم</string>
+    <string name="chat_typing">فهيم يكتب...</string>
+    <string name="alert_confidence_fmt">نسبة الثقة: %1$d%%</string>
+    <string name="clinic_search_query">عيادة بيطرية</string>
+    <string name="home_greeting_fmt">أهلاً، %1$s</string>
+    <string name="trials_left_fmt">متبقي لك %1$d تجارب اليوم</string>
+    <string name="trials_left_wait_fmt">متبقي لك %1$d تجارب · التجربة الجاية بعد %2$s</string>
+    <string name="unlimited_analyses">تحاليل غير محدودة ✨</string>
+    <string name="no_analyses_yet">لا توجد تحاليل بعد، سجّل أول صوت 🐾</string>
+    <string name="today_fmt">اليوم، %1$s</string>
+    <string name="yesterday_fmt">أمس، %1$s</string>
+    <string name="date_time_fmt">%1$s، %2$s</string>
+    <string name="duration_h_m">%1$d ساعة و %2$d دقيقة</string>
+    <string name="duration_h">%1$d ساعة</string>
+    <string name="duration_m">%1$d دقيقة</string>
+    <string name="toast_cooldown_fmt">تقدر تجرب مرة ثانية بعد %1$s ⏳</string>
+    <string name="toast_ad_failed">تعذر تحميل الإعلان، حاول مرة أخرى</string>
+    <string name="toast_free_exhausted">خلصت تجاربك المجانية اليوم! جرب بكرا أو ترقّى لخطة أفضل</string>
+    <string name="toast_mic_permission">لازم صلاحية المايكروفون عشان نقدر نحلل صوت حيوانك</string>
+    <string name="toast_storage_failed">تعذر الوصول إلى مساحة حفظ التسجيل</string>
+    <string name="toast_recording_started">بدأ التسجيل... اضغط مرة ثانية للإيقاف</string>
+    <string name="toast_analyzing">جاري التحليل...</string>
+    <string name="toast_still_analyzing">استنى لحظة، التحليل السابق لسا شغّال...</string>
+    <string name="toast_no_animal">ما سمعت صوت حيوان واضح بالتسجيل، قرّب الجوال منه وجرب مرة ثانية 🐾</string>
+    <string name="toast_pet_missing">لم يتم العثور على حيوان للحساب</string>
+    <string name="toast_result_fmt">النتيجة: %1$s (%2$d%%)</string>
+    <string name="toast_parse_failed">فشل قراءة نتيجة التحليل</string>
+    <string name="err_recording_too_short">التسجيل قصير جداً</string>
+    <string name="err_recording_prepare_fmt">فشل تجهيز التسجيل: %1$s</string>
+    <string name="history_empty">لا توجد تنبيهات صحية حتى الآن 🐾</string>
+    <string name="history_date_confidence_fmt">%1$s • ثقة %2$d%%</string>
+    <string name="toast_photo_updated">تم تحديث الصورة الشخصية</string>
+    <string name="plan_label_premium">الخطة الحالية: بريميوم</string>
+    <string name="plan_label_regular">الخطة الحالية: عادية</string>
+    <string name="plan_label_free">الخطة الحالية: مجانية</string>
+    <string name="hint_pet_name">اسم الحيوان</string>
+    <string name="dialog_add_pet_title">إضافة حيوان</string>
+    <string name="btn_add">إضافة</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="toast_enter_pet_name">اكتب اسم الحيوان</string>
+    <string name="toast_linked_soon">قريباً: إدارة الحسابات المرتبطة</string>
+    <string name="toast_dark_soon">سيتم تطبيق الوضع الليلي في التحديث القادم</string>
+    <string name="delete_title">حذف الحساب</string>
+    <string name="delete_message">سيتم حذف حسابك وحيواناتك وكل تحاليلك نهائياً من هذا الجهاز، ولا يمكن التراجع.</string>
+    <string name="delete_confirm">حذف نهائياً</string>
+    <string name="toast_account_deleted">تم حذف الحساب</string>
+    <string name="pet_type_cat">قطة</string>
+    <string name="pet_type_dog">كلب</string>
+    <string name="pet_type_bird">طائر</string>
+    <string name="pet_type_rabbit">أرنب</string>
+    <string name="pet_type_horse">حصان</string>
+    <string name="pet_type_other">آخر</string>
+    <string name="gender_male">ذكر</string>
+    <string name="gender_female">أنثى</string>
+    <string name="language_dialog_title">اختر اللغة</string>
+    <string name="language_system">لغة الجهاز</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_english">English</string>
+    <string name="privacy_consent_title">موافقة الخصوصية</string>
+    <string name="privacy_policy_title">سياسة الخصوصية</string>
+    <string name="privacy_consent_accept">أوافق وأتابع</string>
+    <string name="close">إغلاق</string>
+    <string name="privacy_policy_link">سياسة الخصوصية</string>
+    <string name="privacy_policy_body">آخر تحديث: 24 أكتوبر 2026\n\nيجمع فهيم البريد الإلكتروني الذي تدخله لإنشاء الحساب وإرسال رموز التحقق فقط.\n\nعند اختيار تسجيل صوت حيوانك للتحليل، يُرسل التسجيل إلى واجهة Gemini API من Google لتحليل تقديري لمزاج الحيوان. يُحذف ملف التسجيل من جهازك فور اكتمال التحليل أو فشله. لا تستخدم فهيم النتيجة كتشخيص طبي أو توصية بعلاج أو دواء؛ أي تنبيه صحي يعني فقط أنه يوصي بمراجعة طبيب بيطري.\n\nلا يبدأ إرسال الصوت أو البريد إلى الخدمات الخارجية إلا بعد موافقتك. قد تستخدم الإعلانات الخدمات الإعلانية المضمنة وفق إعدادات جهازك وموافقتك المطلوبة قانونياً.\n\nيمكنك طلب حذف حسابك وبياناته من داخل الإعدادات عبر خيار حذف الحساب. بعد نشر التطبيق، سيتوفر أيضاً رابط ويب لطلبات الحذف في صفحة المتجر.\n\nللاستفسارات المتعلقة بالخصوصية، استخدم وسيلة التواصل المنشورة في صفحة التطبيق على Google Play.</string>
+    <string name="billing_unavailable">خدمة الدفع غير متاحة حالياً.</string>
+    <string name="billing_product_unavailable">هذا الاشتراك غير متاح حالياً.</string>
+    <string name="billing_purchase_success">تم تحديث اشتراكك بنجاح.</string>
+    <string name="billing_purchase_failed">تعذر إتمام عملية الشراء.</string>
+    <string name="google_sign_in_not_configured">لم يتم إعداد تسجيل الدخول عبر Google بعد.</string>
+    <string name="google_sign_in_failed">تعذر تسجيل الدخول عبر Google.</string>
+    <string name="google_account_not_registered">لا يوجد حساب فهيم مرتبط بهذا البريد. أنشئ حساباً أولاً.</string>
+    <string name="google_sign_in_continue_registration">تم اختيار حساب Google. أكمل بياناتك لإنشاء الحساب.</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/brand_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- شريط علوي -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_back"
+                android:contentDescription="@string/back_button" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/settings_title"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/text_primary"
+                android:gravity="center" />
+
+            <View android:layout_width="32dp" android:layout_height="32dp" />
+
+        </LinearLayout>
+
+        <!-- قسم الحساب -->
+        <TextView style="@style/SettingsSectionTitle" android:text="@string/section_account" android:layout_marginTop="20dp" />
+
+        <LinearLayout style="@style/SettingsCard">
+
+            <LinearLayout style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/edit_name_email" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/change_password" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linkedAccountsRow"
+                style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/linked_accounts" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- قسم بيانات الحيوان الأساسية -->
+        <TextView style="@style/SettingsSectionTitle" android:text="@string/section_basic_pet_data" android:layout_marginTop="20dp" />
+
+        <LinearLayout style="@style/SettingsCard">
+
+            <LinearLayout style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/animal_type_label" />
+                <Spinner
+                    android:id="@+id/animalTypeSpinner"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/animal_gender_label" />
+                <Spinner
+                    android:id="@+id/animalGenderSpinner"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/basic_pet_note"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:layout_marginTop="6dp" />
+
+        <!-- قسم التفضيلات -->
+        <TextView style="@style/SettingsSectionTitle" android:text="@string/section_preferences" android:layout_marginTop="20dp" />
+
+        <LinearLayout style="@style/SettingsCard">
+
+            <LinearLayout android:id="@+id/languageRow" style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/language_label" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/notifications_label" />
+                <Switch
+                    android:id="@+id/notificationsSwitch"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:checked="true" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/dark_mode_label" />
+                <Switch
+                    android:id="@+id/darkModeSwitch"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- قسم الدعم -->
+        <TextView style="@style/SettingsSectionTitle" android:text="@string/section_support" android:layout_marginTop="20dp" />
+
+        <LinearLayout style="@style/SettingsCard">
+
+            <LinearLayout style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/faq_label" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/contact_us_label" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRow">
+                <TextView style="@style/ProfileMenuText" android:text="@string/rate_app_label" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- حذف الحساب -->
+        <TextView
+            android:id="@+id/deleteAccountText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_account"
+            android:textColor="#D64545"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_version"
+            android:textColor="@color/text_secondary"
+            android:textSize="11sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

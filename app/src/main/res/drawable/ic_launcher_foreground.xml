@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="@color/brand_sand"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+
+    <!-- Cat Face - Positioned Correctly -->
+    <!-- Head Outline -->
+    <path
+        android:strokeWidth="3.5"
+        android:strokeColor="#3E3E3E"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,49 C34,44 39,34 46,39 C49,42 59,42 62,39 C69,34 74,44 74,49 C74,69 54,79 54,79 C54,79 34,69 34,49 Z" />
+
+    <!-- Left Eye -->
+    <path
+        android:strokeWidth="2.5"
+        android:strokeColor="#3E3E3E"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:pathData="M42,52 Q47,57 52,52" />
+
+    <!-- Right Eye -->
+    <path
+        android:strokeWidth="2.5"
+        android:strokeColor="#3E3E3E"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:pathData="M56,52 Q61,57 66,52" />
+
+    <!-- Nose -->
+    <path
+        android:fillColor="#3E3E3E"
+        android:pathData="M52,62 Q54,65 56,62 L56,64 Q54,67 52,64 Z" />
+
+    <!-- Sparkle -->
+    <path
+        android:fillColor="#D97746"
+        android:pathData="M72,36 L74,32 L76,36 L74,40 Z" />
+
+</vector>

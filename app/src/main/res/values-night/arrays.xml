@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animal_types_array">
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Horse</item>
+    </string-array>
+
+    <string-array name="animal_genders_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

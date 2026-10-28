@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="privacy_consent_title">Privacy consent</string>
+    <string name="privacy_policy_title">Privacy policy</string>
+    <string name="privacy_consent_accept">I agree and continue</string>
+    <string name="close">Close</string>
+    <string name="privacy_policy_link">Privacy policy</string>
+    <string name="privacy_policy_body">Last updated: October 24, 2026\n\nFahim uses the email address you enter only to create your account and send verification codes.\n\nWhen you choose to record your pet for analysis, the recording is sent to Google\'s Gemini API for an estimate of your pet\'s mood. The recording file is deleted from your device immediately after analysis completes or fails. Fahim does not provide medical diagnoses or treatment or medication recommendations. A health alert only recommends seeing a veterinarian.\n\nAudio and email are not sent to external services until you accept this consent. Advertising may use the included advertising services according to your device settings and any consent required by law.\n\nYou can request deletion of your account and its data in Settings through Delete Account. After publication, a web link for deletion requests will also be available on the store listing.\n\nFor privacy questions, use the contact method published on the app\'s Google Play listing.</string>
+    <string name="billing_unavailable">Billing is currently unavailable.</string>
+    <string name="billing_product_unavailable">This subscription is currently unavailable.</string>
+    <string name="billing_purchase_success">Your subscription has been updated.</string>
+    <string name="billing_purchase_failed">The purchase could not be completed.</string>
+    <string name="google_sign_in_not_configured">Google sign-in has not been configured yet.</string>
+    <string name="google_sign_in_failed">Google sign-in could not be completed.</string>
+    <string name="google_account_not_registered">No Fahim account is linked to this email. Create an account first.</string>
+    <string name="google_sign_in_continue_registration">Your Google account was selected. Complete your details to create your account.</string>
+</resources>

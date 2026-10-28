@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/brand_bg"
+    android:padding="24dp"
+    android:layoutDirection="rtl"
+    android:fitsSystemWindows="true"
+    tools:context=".VerificationActivity">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_email"
+        android:contentDescription="@string/verification_icon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verification_title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verification_subtitle"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <!-- خانات الكود الستة -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layoutDirection="ltr"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/code1"
+            style="@style/CodeBoxStyle"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:textColor="@color/text_primary"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:hint="0"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:id="@+id/code2"
+            style="@style/CodeBoxStyle"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:textColor="@color/text_primary"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:hint="0"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:id="@+id/code3"
+            style="@style/CodeBoxStyle"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:textColor="@color/text_primary"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:hint="0"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:id="@+id/code4"
+            style="@style/CodeBoxStyle"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:textColor="@color/text_primary"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:hint="0"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:id="@+id/code5"
+            style="@style/CodeBoxStyle"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:textColor="@color/text_primary"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:hint="0"
+            tools:ignore="LabelFor" />
+        <EditText
+            android:id="@+id/code6"
+            style="@style/CodeBoxStyle"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:textColor="@color/text_primary"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:hint="0"
+            tools:ignore="LabelFor" />
+
+    </LinearLayout>
+
+    <!-- إعادة الإرسال -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            tools:text="00:30" />
+
+        <TextView
+            android:id="@+id/resendTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:text="@string/resend_code"
+            android:textColor="@color/brand_primary_green"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <!-- زر التأكيد -->
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/confirm_button"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="@color/button_disabled"
+        app:cornerRadius="16dp" />
+
+</LinearLayout>

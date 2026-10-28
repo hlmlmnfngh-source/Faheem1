@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animal_types_array">
+        <item>قطة</item>
+        <item>كلب</item>
+        <item>حصان</item>
+    </string-array>
+
+    <string-array name="animal_genders_array">
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+</resources>

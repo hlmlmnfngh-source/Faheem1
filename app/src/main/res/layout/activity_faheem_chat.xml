@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/brand_bg">
+
+    <!-- شريط علوي -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_back"
+            android:contentDescription="@string/back_button" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/chat_title"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/text_primary"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/premium_badge"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:background="@drawable/bg_pill_gold"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="3dp" />
+
+    </LinearLayout>
+
+    <!-- بانر التذكير الثابت -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_alert_banner"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_disclaimer"
+            android:textColor="@color/text_primary"
+            android:textSize="11sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- منطقة المحادثة -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/messagesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- رسالة ترحيب أولية من فهيم -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/chat_welcome_message"
+                android:textColor="@color/text_primary"
+                android:background="@drawable/bg_chat_bubble_ai"
+                android:padding="14dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- شريط الكتابة -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_input_field"
+            android:padding="12dp"
+            android:hint="@string/chat_input_hint" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/send_icon"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_send_button" />
+
+    </LinearLayout>
+
+</LinearLayout>

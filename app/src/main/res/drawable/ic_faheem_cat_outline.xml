@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Face Outline - Simplified and Clean -->
+    <path
+        android:strokeWidth="3.5"
+        android:strokeColor="#3E3E3E"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M30,45 C30,35 35,25 42,30 C45,33 55,33 58,30 C65,25 70,35 70,45 C70,65 50,75 50,75 C50,75 30,65 30,45 Z" />
+
+    <!-- Left Eye (Arc) -->
+    <path
+        android:strokeWidth="2.5"
+        android:strokeColor="#3E3E3E"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:pathData="M38,48 Q43,53 48,48" />
+
+    <!-- Right Eye (Arc) -->
+    <path
+        android:strokeWidth="2.5"
+        android:strokeColor="#3E3E3E"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:pathData="M52,48 Q57,53 62,48" />
+
+    <!-- Nose / Mouth Small Detail -->
+    <path
+        android:fillColor="#3E3E3E"
+        android:pathData="M48,58 Q50,61 52,58 L52,60 Q50,63 48,60 Z" />
+
+    <!-- Sparkle on Ear -->
+    <path
+        android:fillColor="#D97746"
+        android:pathData="M68,32 L70,28 L72,32 L70,36 Z" />
+
+</vector>

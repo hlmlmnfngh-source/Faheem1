@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brand_primary_green">#2B5C4B</color>
+    <color name="brand_terracotta">#D97746</color>
+    <color name="brand_sand">#F5E6D3</color>
+    <color name="brand_bg">#FDF6EC</color>
+    <color name="text_primary">#2D2D2D</color>
+    <color name="text_secondary">#595959</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="button_disabled">#BDBDBD</color>
+    <color name="circle_outer">#FFFFFF</color>
+    <color name="circle_inner">#F5E6D3</color>
+    <color name="consent_button_disabled">#A0A0A0</color>
+    <color name="consent_button_active">#4CAF50</color>
+</resources>
